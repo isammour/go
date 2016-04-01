@@ -10,6 +10,7 @@ namespace go
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
