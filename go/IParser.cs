@@ -9,7 +9,7 @@ namespace go
     interface IParser
     {
         bool ArgsValid();
-        bool NameExists();
+        bool NameExists(string name);
         void Add(string name,string path);
         void List();
         void Update(string name,string path);
