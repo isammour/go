@@ -8,8 +8,8 @@ namespace go
 {
     interface IParser
     {
-        bool ArgsValid();
-        bool NameExists();
+        void ArgsValid();
+        bool NameExists(string name);
         void Add();
         void List();
         void Update();
