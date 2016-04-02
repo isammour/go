@@ -15,5 +15,8 @@ namespace go
         void Update();
         void Delete();
         void Rename();
+        void Help();
+        void PerformGo();
+
     }
 }
