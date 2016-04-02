@@ -9,11 +9,11 @@ namespace go
     interface IParser
     {
         bool ArgsValid();
-        bool NameExists(string name);
-        void Add(string name,string path);
+        bool NameExists();
+        void Add();
         void List();
-        void Update(string name,string path);
-        void Delete(string name);
-        void Rename(string oldName, string newName);
+        void Update();
+        void Delete();
+        void Rename();
     }
 }
