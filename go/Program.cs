@@ -10,7 +10,8 @@ namespace go
     {
         static void Main(string[] args)
         {
-
+            var p = new Parser(args);
+            p.ArgsValid();
         }
     }
 }
