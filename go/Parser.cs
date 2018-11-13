@@ -245,9 +245,9 @@ namespace go
                     {
                         System.Diagnostics.Process process = new System.Diagnostics.Process();
                         System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-                        startInfo.FileName = "cmd.exe";
+                        startInfo.FileName = "powershell.exe";
                         startInfo.WorkingDirectory = pair.ChildNodes[1].InnerText;
-                        process.StartInfo = startInfo;
+						process.StartInfo = startInfo;
                         process.Start();
                         return;
                     }
